@@ -1,7 +1,16 @@
-a{
-	color: red; text-decoration: none;
+a {
+	color: red; 
+	text-decoration: none;
 }
 
-ha {
+h1 {
 	font-family: helvetica, Arial, sans-serif;
+	margin-left: 50px;
+}
+
+div {
+	width: 500px;
+	background: red;
+	margin: auto;
+	text-align: center;
 }
