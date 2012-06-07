@@ -1,19 +1,28 @@
-body {
-	background-color: #98F5FF;
-	width: 500px;
+.wrap {
+	min-width: 600px;
+	width: 80%;
 	margin: auto;
-	font-family: times, Arial;
+	background: green;
+	overflow: hidden;
 }
 
-h1,h2 {
-	font-family: Arial;
+.content, aside {
+	height: 600px;
 }
 
-
-.quotes {
-	border-width: 5px;
-	border-style: ridge;
-	text-align: center;
-	
+.content {
+	background: red;
+	float: left;
+	width: 90%;
 }
-	
+
+aside {
+	background: brown;
+	float: left;
+	width: 10%;
+}
+
+aside ul {
+	list-style: none;
+	padding-left: 0;
+}
