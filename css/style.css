@@ -1,7 +1,14 @@
+body {
+	background: #666;
+}
 h1 {
-	background: url(../img/wb_logo.png) no-repeat;
-	text-indent: -9999px;
-	width: 203px;
-	height: 203px;
+	font-size: 120px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Chicle', cursive;	letter-spacing:-5px;
+	color: black;
+	text-transform: lowercase;
+	text-shadow: 0 1px 0 white;
+	font-variant: small-caps;
 }
 
