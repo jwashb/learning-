@@ -1,0 +1,12 @@
+.banner {
+	background: url(../img/city-bg.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+}
+
+header h1 {
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 174px;
+	height: 23px;
+}
