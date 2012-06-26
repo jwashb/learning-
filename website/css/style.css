@@ -1,13 +1,54 @@
-.banner {
-	background: url(../img/city-bg.jpg) no-repeat;
-	width: 695px;
-	height: 231px;
-}
 
+/*
+*********************
+* =heading
+*********************
+*/
+header {
+	overflow: hidden
+}
 header h1 {
 	background: url(../img/logo.png) no-repeat;
 	text-indent: -9999px;
 	width: 174px;
 	height: 23px;
 	margin: 10px 10px; 
+	float: left;
+}	
+
+/*
+*********************
+* =nav
+*********************
+*/
+
+nav {
+	float: right;
 }
+
+nav li {
+	display: inline;
+}
+
+/*
+*********************
+* =banner
+*********************
+*/
+
+.banner {
+	background: url(../img/city-bg.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+}
+
+.callout {
+	background: black;
+	height: 231px;
+}
+
+
+
+.grid_4 {background: red;}
+.container_12 {background: green;}
+.grid_3 {background: orange}
