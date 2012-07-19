@@ -1,3 +1,122 @@
+		/*
+		*********************
+		* =Mis.
+		*********************
+		*/
 li {
 	list-style: none;
+}
+
+label{
+	display: block;
+}
+
+.part_two {
+	background-color: red;
+	border-top: solid 5px;
+  border-top-color: white;
+}
+		/*
+		*********************
+		* =body
+		*********************
+		*/
+
+		body {
+			text-transform: uppercase;
+		}
+
+		.inner {
+			width: 830px;
+			margin: auto;
+		}
+
+
+		/*
+		*********************
+		* =form
+		*********************
+		*/
+
+						/*
+						*********************
+						* =form header
+						*********************
+						*/ 
+
+						.part_one {
+							background: url(../img/form-background_03.jpg);
+							height: 239px;
+							overflow: hidden;
+						}
+
+						.form_header {
+							height: 50px;
+							width: 830px;
+						}
+
+						#form_close {
+							float: right;
+							overflow: hidden;
+							text-align: right;
+						}
+
+						#form_contact {
+							float: left;
+							overflow: hidden;
+							text-align: left;
+							text-decoration: bold;
+						}
+#name {
+	float: left;
+	overflow: hidden;
+	margin-left: 50px;
+	margin-right: 30px;
+}
+
+#first_name:select 
+
+#first_name, #last_name {
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+}
+
+#email {
+	width: 220px;
+	height: 30px;
+}
+
+#message {
+	float: left;
+	overflow: hidden;
+	width: 320px;
+	height: 124px;
+	margin-right: 33px;
+}
+
+#form_third {
+
+}
+
+
+
+#sudmit {
+	float: left;
+}
+
+
+.contactform ul li:last-child {
+	float: left;
+}
+		/*
+		*********************
+		* =logo
+		*********************
+		*/
+a {
+	text-decoration: none;
+}
+#logo a:hover {
+color: red;
 }
