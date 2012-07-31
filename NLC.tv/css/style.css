@@ -11,11 +11,6 @@ label{
 	display: block;
 }
 
-.part_two {
-	background-color: red;
-	border-top: solid 5px;
-  border-top-color: white;
-}
 		/*
 		*********************
 		* =body
@@ -74,7 +69,7 @@ label{
 	margin-right: 30px;
 }
 
-#first_name:select 
+
 
 #first_name, #last_name {
 	width: 100px;
@@ -109,14 +104,94 @@ label{
 .contactform ul li:last-child {
 	float: left;
 }
+
+		/*
+		*********************
+		* =header top
+		*********************
+		*/
+
+		.header_top {
+		height: 150px;
+		margin: none;
+		border-top: solid 5px;
+  	background-color:red;
+  	background: url(../img/form-background_03.jpg);
+		}
+
+		.icons {
+			float:right;
+			padding-right: 10px;
+		}
+
+		
 		/*
 		*********************
 		* =logo
 		*********************
 		*/
+
+.part_two {
+	background: url(../img/logo_background_03.jpg);
+}
+.pagelinks {
+	float: right;
+	font-size: 15px;
+	padding-top: 16px;
+}
+
+.pagelinks a:hover {
+	background: #f86767;
+	color: white !important;
+	border: solid 1px;
+	border-color: black;
+}
+
+.pagelinks a {
+	padding: 6px 12px;
+}
+
+
+.pagelinks ul li {
+	display: inline;
+	float: left;
+}
+
+.nlc_header {
+	font-size: 30px;
+	float: left !important;
+	margin-right: 5px;
+}
+
+.webaddress {
+	float: left;
+	padding-top: 5px;
+	font-size: 25px;
+	text-transform: lowercase;
+
+}
 a {
 	text-decoration: none;
 }
-#logo a:hover {
+
+.logo {
+	overflow:hidden;
+	padding-right: 75px;
+	float: left;
+}
+.logo a:hover {
 color: red;
+}
+
+.days {
+	float: left;
+}
+
+.watch {
+	float: right;
+}
+
+.logo_menu {
+	height : 100px;
+	width: 830px;
 }
