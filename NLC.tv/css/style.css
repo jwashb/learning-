@@ -23,10 +23,49 @@ label{
 
 		.inner {
 			width: 830px;
-			margin: auto;
+		 	margin: auto;
 		}
 
+		#timer {
+			height: 30px;
+			width: 960px;
+		}
 
+		.map {
+			float: left;
+			
+			overflow: hidden;
+			clear: both;
+		}
+
+		.part_three {
+			background: url(../img/part-three-bkg_03.jpg);
+			height: 265px;
+		}
+
+		.location {
+			background: url(../img/blackbox_03.jpg);
+			color: white;
+			width: 400px;
+			height: 150px;
+			clear: all;
+			overflow: hidden;
+			margin-top: 40px;
+
+		}
+
+		.goright {
+			float: right;
+		}
+
+		.part_three .grid_1 {
+			margin-left: 0px !important;
+			margin-right: 0px !important;
+		}
+
+		.part_four {
+			clear: both;
+		}
 		/*
 		*********************
 		* =form
@@ -133,11 +172,14 @@ label{
 
 .part_two {
 	background: url(../img/logo_background_03.jpg);
+	height : 100px;
 }
-.pagelinks {
-	float: right;
+.pagelinks li a{
+	float: right !important;
 	font-size: 15px;
 	padding-top: 16px;
+	display: inline;
+	margin-top: 25px;
 }
 
 .pagelinks a:hover {
@@ -151,10 +193,35 @@ label{
 	padding: 6px 12px;
 }
 
+.messages a:hover {
+	background: #f86767;
+	color: white !important;
+	background-color: #f86767;
+	}
+
+.messages li a{
+	font-size: 14px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: black;
+	border-bottom: solid 1px;
+	border-color: black;
+	width: 490px;
+	display: block;
+}
+}
+.messages a {
+	padding: 6px 12px;
+}
+}
 
 .pagelinks ul li {
 	display: inline;
 	float: left;
+}
+
+.logo, .pagelinks {
+margin-top: 30px;
 }
 
 .nlc_header {
@@ -176,7 +243,6 @@ a {
 
 .logo {
 	overflow:hidden;
-	padding-right: 75px;
 	float: left;
 }
 .logo a:hover {
@@ -192,6 +258,32 @@ color: red;
 }
 
 .logo_menu {
-	height : 100px;
 	width: 830px;
+}
+
+#band, .messages {
+	clear: both;
+	float: left;
+}
+
+.yes_services{
+	background: url(../img/band-background_03.jpg);
+	height: 350px;
+}
+.yes_services ul {
+	background-color: white;
+}
+.messages li {
+	padding-left: 10px;
+
+}
+.work h4 {
+	float: left;
+	background: blue;
+}
+
+.work a {
+	background: red;
+	clear: left;
+	float: right;
 }
