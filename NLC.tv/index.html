@@ -17,25 +17,26 @@
 					<p id="form_contact">CONTACT US</p> 
 					<a href="#"><p id="form_close">CLOSE</p></a>
 				</div>
-				 <div class="contactform">
-					<form action="" method="post">
-						<ul>
-							<div id="name">
+				<div class="contactform">
+				<form action="" method="post">
+						<ul id="name">
 							<li>
 								<label for="first_name">NAME</label>
 								<input id="first_name" name="first_name" placeholder="first"/>
 								<input id="last_name" name="last_name" placeholder="last"/>
 							</li>
 							<li>
-								<label for="eamil">EMAIL ADDRESS</label>
+								<label for="email">EMAIL ADDRESS</label>
 								<input id="email" name="email">
 							</li>
-						</div>
-						<div class="message"
-							<li>
-								<label for="message">YOUR MESSAGE</label>
-								<textarea id="message" name="message"></textarea>
-							</li>
+						</ul>
+						<div class="message">
+							<ul>
+								<li>
+									<label for="message">YOUR MESSAGE</label>
+									<textarea id="message" name="message"></textarea>
+								</li>
+							</ul>
 						</div>
 						<div id="form_third">
 							<select>
@@ -46,21 +47,18 @@
 								<option>HEBER SPRINGS</option>
 								<option>HOT SPRINGS</option>
 							</select>
-						
-							
-								<input id="submit" type="submit" value="SUBMIT">
+							<input id="submit" type="submit" value="SUBMIT">
 							
 						</div>
-						</ul>
 					</form>
+				</div>
 			</div>
-		</div>
 		</section>
 
 		
 		<header>
 			<div class="header_top">
-					<p class="grid_1">Campus Select:</p>
+				<p class="grid_1">Campus Select:</p>
 				<ul class="grid_2">
 					<li><a href="#">CABOT</a></li>
 					<li><a href="#">CONWAY</a></li>
@@ -69,70 +67,80 @@
 					<li><a href="#">HEBER SPRINGS</a></li>
 					<li><a href="#">HOT SPRINGS</a></li>
 				</ul>
-				<li class="grid_3"><a href="#">CONTACT US</a><li>
-				<li class="grid_4"><a href="#">GIVING</a><li>
-			<div class="icons">
-				<a href="#"><img src="img/icons-2_03.jpg"></a>
-				<a href="#"><img src="img/icons-2_06.jpg"></a>
-				<a href="#"><img src="img/icons-2_09.jpg"></a>
+				<ul>
+					<li class="grid_3"><a href="#">CONTACT US</a><li>
+					<li class="grid_4"><a href="#">GIVING</a><li>
+				</ul>	
 			</div>
-
+			<div class="icons">
+				<a href="#"><img src="img/icons-2_03.jpg" alt=""></a>
+				<a href="#"><img src="img/icons-2_06.jpg" alt=""></a>
+				<a href="#"><img src="img/icons-2_09.jpg" alt=""></a>
 			</div>
 			<section class="part_two"> <!-- Header under contact form -->
-			<div class="inner">
-			<div class="logo_menu">
-		<h1 class="logo grid_1"><a href="#"> <div class="nlc_header">NLC |</div> <div class= "webaddress">newlifechurch.tv</div></a> </h1>
-			<ul class="pagelinks">
-				<li><a href="#">I'M NEW HERE</a></li>
-				<li><a href="#">MINISTRIES</a></li>
-				<li><a href="#">PRAYER</a></li>
-				<li><a href="#">UPDATES</a></li>
-			</ul>
-		</div>
-	</section>
-		<div id="timer" class="inner">
-			<p class="days">
-				0 days 3 hours 37 minutes until next online serivice
-			</p>
-			<p class="watch">WATCH OUR MOST RECENT SERVICE NOW</p>
-		</div>
+				<div class="inner">
+					<div class="logo_menu">
+						<!-- <h1 class="logo grid_1">
+							<a href="#"> 
+								<div class="nlc_header">NLC |</div> 
+								<div class= "webaddress">newlifechurch.tv</div>
+							</a> 
+						</h1> -->
+						<ul class="pagelinks">
+							<li><a href="#">I'M NEW HERE</a></li>
+							<li><a href="#">MINISTRIES</a></li>
+							<li><a href="#">PRAYER</a></li>
+							<li><a href="#">UPDATES</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<div id="timer" class="inner">
+				<p class="days">
+					0 days 3 hours 37 minutes until next online serivice
+				</p>
+				<p class="watch">WATCH OUR MOST RECENT SERVICE NOW</p>
+			</div>
 		</header>
-	</div>
+	
 
 
 		<section class="part_three">
 			<div class="inner">
-				<br>
-			<div id="map" class="grid_1"><img src="img/map.jpg" alt="Map of New Life Churchs"></div>
-		<div class="location">
-			<!--<ul>
-				<li>Cabot</li>
-				<li>Conway</li>
-				<li>Fort Smith</li>
-				<li>Greater Little Rock</li>
-				<li>Heber Springs</li>
-				<li>Hot Springs</li>
-			</ul> -->
-			<p id="cwy_address grid_2">
-				633 South Country Club Road <br> Conway, AR 72034
-			</p>
-			<div class="grid_3 goright">
-			<p class="goright">SATURDAY 7:00pm</p>
-			<br>
-			<p class="goright">Sunday 10 & 11:45</p>
-			<br>
-			<p class="goright">501 328-5433</p>
-		</div>
-		<p>DRIVING DIRECTIONS</P>
-		</div>
-	</div>
-		</section>
-		<section class="inner">
-			<div class="work">
-				<h4>RECENT SERVICES</h3>
-				<a href="#">watch older services</a>
+				<div id="map" class="grid_1">
+					<img src="img/map.jpg" alt="Map of New Life Churchs">
+				</div>
+					<div class="location">
+				<!--<ul>
+							<li>Cabot</li>
+							<li>Conway</li>
+							<li>Fort Smith</li>
+							<li>Greater Little Rock</li>
+							<li>Heber Springs</li>
+							<li>Hot Springs</li>
+						</ul> -->
+						<p id="cwy_address" class="grid_2">
+							633 South Country Club Road <br> Conway, AR 72034
+						</p>
+						<div class="grid_3 goright">
+							<p class="goright">SATURDAY 7:00pm</p>
+								<br>
+							<p class="goright">Sunday 10 & 11:45</p>
+								<br>
+							<p class="goright">501 328-5433</p>
+						</div>
+						<p>DRIVING DIRECTIONS</P>
+					</div>
 			</div>
 		</section>
+
+		<div id="work">
+			<div class="inner">
+				<h4>RECENT SERVICES</h4>
+				<a href="#">watch older services</a>
+			</div>
+		</div>
+
 		<section class="yes_services">
 
 			<!-- <div class="inner service_header">
@@ -140,48 +148,48 @@
 				<a href="#">watch older services</a>
 			</div> -->
 			<div class="inner">
-			<img src="img/band.jpg" alt="Watch our past services" id="band">
-			<ul class="messages grid_2">
-				<li>
-					<a href="#"><strong>June 25, 2011 -</strong> STARVING CHILDREN IN AFTRICA - Y.R. GRADPA</a>
-				</li>
-				<li>
-					<a href="#"><strong>June 25, 2011</strong>- SURVIVAL OF THE FITTEST - CHARLES D</a>
-				</li>
-				<li>
-					<a href="#"><strong>June 25, 2011</strong> - DEAR SWEET BABY JESUS - RICKY BOBBY</a>
-				</li>
-				<li>
-					<a href="#"><strong>June 25, 2011 -</strong> BE AWESOME AT EVERYTHING - NEIL CHEESEHOUSE</a>
-				</li>
-				<li>
-					<a href="#"> <strong>June 25, 2011</strong> - MICHAEL, ROW THE BOAT ASHORE - TRAD FLKSNG</a>
+				<img src="img/band.jpg" alt="Watch our past services" id="band">
+				<ul class="messages grid_2">
 					<li>
-			</ul>
-</div>
-	</section>
-			<section class="part_four">
-				<div="inner">
+						<a href="#"><strong>June 25, 2011 -</strong> STARVING CHILDREN IN AFTRICA - Y.R. GRADPA</a>
+					</li>
+					<li>
+						<a href="#"><strong>June 25, 2011</strong>- SURVIVAL OF THE FITTEST - CHARLES D</a>
+					</li>
+					<li>
+						<a href="#"><strong>June 25, 2011</strong> - DEAR SWEET BABY JESUS - RICKY BOBBY</a>
+					</li>
+					<li>
+						<a href="#"><strong>June 25, 2011 -</strong> BE AWESOME AT EVERYTHING - NEIL CHEESEHOUSE</a>
+					</li>
+					<li>
+						<a href="#"> <strong>June 25, 2011</strong> - MICHAEL, ROW THE BOAT ASHORE - TRAD FLKSNG</a>
+					<li>
+				</ul>
+			</div>
+		</section>
+		<section class="part_four">
+			<div class="inner">
 				<h2>RECENT UPDATES</h2>  
-					<ul>
-						<li><p>FILTER BY:</p></li>
-						<li class="updates">ALL</li>
-						<li class="updates">CWY</li>
-						<li class="updates">HBS</li>
-						<li class="updates">FSM</li>
-						<li class="updates">GLR</li>
-						<li class="updates">CBT</li>
-						<li class="updates">HTS</li>
-						<li id="more_updates">MORE UPDATES</li>
-					</ul>
-					<img src="img/vbs2012.png" alt="Legacy of Adventure 2012 VBS">
-					<p>VBS - LEGACY OF ADVENTURE MAY 22, 2012 - All Campuses</p>
-					<img src="img/woman.png" alt="Love Loud Woman Conference 2012">
-					<p>Love LOUD - WOMAN CONFERENCE 2012</p>
-					<img src="img/collide.png" alt="Collide Student Conference 2012">
-					<P>COLLIDE STUDENT CONFERENCE</P>
-				</div>
-			</section>
+				<ul>
+					<li><p>FILTER BY:</p></li>
+					<li class="updates">ALL</li>
+					<li class="updates">CWY</li>
+					<li class="updates">HBS</li>
+					<li class="updates">FSM</li>
+					<li class="updates">GLR</li>
+					<li class="updates">CBT</li>
+					<li class="updates">HTS</li>
+					<li id="more_updates">MORE UPDATES</li>
+				</ul>
+				<img src="img/vbs2012.png" alt="Legacy of Adventure 2012 VBS">
+				<p>VBS - LEGACY OF ADVENTURE MAY 22, 2012 - All Campuses</p>
+				<img src="img/woman.png" alt="Love Loud Woman Conference 2012">
+				<p>Love LOUD - WOMAN CONFERENCE 2012</p>
+				<img src="img/collide.png" alt="Collide Student Conference 2012">
+				<P>COLLIDE STUDENT CONFERENCE</P>
+			</div>
+		</section>
 			<footer>
 				<div class="inner">
 				<ul>

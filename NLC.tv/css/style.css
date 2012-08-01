@@ -3,13 +3,23 @@
 		* =Mis.
 		*********************
 		*/
-li {
-	list-style: none;
-}
 
-label{
-	display: block;
-}
+		.inner_2 {
+			width: 830px;
+			margin: auto;
+			background: blue;
+		}
+
+		#work {
+			width: 830px;
+			margin: auto;
+		}
+		#work h4 {
+			float: left;
+		}
+		#work a {
+			float: right;
+		}
 
 		/*
 		*********************
@@ -48,7 +58,7 @@ label{
 			color: white;
 			width: 400px;
 			height: 150px;
-			clear: all;
+			clear: both;
 			overflow: hidden;
 			margin-top: 40px;
 
@@ -99,7 +109,7 @@ label{
 							float: left;
 							overflow: hidden;
 							text-align: left;
-							text-decoration: bold;
+							font-weight: bold;
 						}
 #name {
 	float: left;
@@ -152,7 +162,7 @@ label{
 
 		.header_top {
 		height: 150px;
-		margin: none;
+		margin: 0;
 		border-top: solid 5px;
   	background-color:red;
   	background: url(../img/form-background_03.jpg);
@@ -209,12 +219,9 @@ label{
 	width: 490px;
 	display: block;
 }
-}
 .messages a {
 	padding: 6px 12px;
 }
-}
-
 .pagelinks ul li {
 	display: inline;
 	float: left;
@@ -276,14 +283,4 @@ color: red;
 .messages li {
 	padding-left: 10px;
 
-}
-.work h4 {
-	float: left;
-	background: blue;
-}
-
-.work a {
-	background: red;
-	clear: left;
-	float: right;
 }
