@@ -4,22 +4,7 @@
 		*********************
 		*/
 
-		.inner_2 {
-			width: 830px;
-			margin: auto;
-			background: blue;
-		}
-
-		#work {
-			width: 830px;
-			margin: auto;
-		}
-		#work h4 {
-			float: left;
-		}
-		#work a {
-			float: right;
-		}
+		a {text-decoration: none;}
 
 		/*
 		*********************
@@ -27,55 +12,25 @@
 		*********************
 		*/
 
-		body {
-			text-transform: uppercase;
-		}
+		body {text-transform: uppercase;}
 
 		.inner {
 			width: 830px;
 		 	margin: auto;
 		}
 
-		#timer {
-			height: 30px;
-			width: 960px;
+		.inner_2 {
+			width: 830px;
+			margin: auto;
+			background: blue;
 		}
 
-		.map {
-			float: left;
-			
-			overflow: hidden;
-			clear: both;
-		}
+		/*
+		*********************
+		* =part 1
+		*********************
+		*/
 
-		.part_three {
-			background: url(../img/part-three-bkg_03.jpg);
-			height: 265px;
-		}
-
-		.location {
-			background: url(../img/blackbox_03.jpg);
-			color: white;
-			width: 400px;
-			height: 150px;
-			clear: both;
-			overflow: hidden;
-			margin-top: 40px;
-
-		}
-
-		.goright {
-			float: right;
-		}
-
-		.part_three .grid_1 {
-			margin-left: 0px !important;
-			margin-right: 0px !important;
-		}
-
-		.part_four {
-			clear: both;
-		}
 		/*
 		*********************
 		* =form
@@ -111,48 +66,53 @@
 							text-align: left;
 							font-weight: bold;
 						}
-#name {
-	float: left;
-	overflow: hidden;
-	margin-left: 50px;
-	margin-right: 30px;
-}
+		#name {
+			float: left;
+			overflow: hidden;
+			margin-left: 0px;
+			margin-right: 0px;
+			clear: both;
+			width: 275px;
+		}
 
+		#first_name, #last_name {
+			width: 100px;
+			height: 30px;
+			font-size: 15px;
+			float: left:
+		}
 
+		#email {
+			float: left;
+			width: 220px;
+			height: 30px;
+		}
 
-#first_name, #last_name {
-	width: 100px;
-	height: 30px;
-	font-size: 15px;
-}
+		.form_second {
+			float: left;
+			width: 200px;
+			height: 124px;
+			margin-right: 0px;
+		}
 
-#email {
-	width: 220px;
-	height: 30px;
-}
+		#message {
+			height: 120px;
+			width: 250px;
+		}
 
-#message {
-	float: left;
-	overflow: hidden;
-	width: 320px;
-	height: 124px;
-	margin-right: 33px;
-}
+		#form_third{
+			padding-right: 125px;
+			float: right;
+			clear: all;
+			margin: 0 0 20px 20px;
 
-#form_third {
+		}
 
-}
+		#form_third li {margin: 0 0 10px 0;}
 
+		#sudmit {float: left;}
 
-
-#sudmit {
-	float: left;
-}
-
-
-.contactform ul li:last-child {
-	float: left;
-}
+		.contactform ul li:last-child {float: left;}
 
 		/*
 		*********************
@@ -161,11 +121,22 @@
 		*/
 
 		.header_top {
-		height: 150px;
-		margin: 0;
-		border-top: solid 5px;
-  	background-color:red;
-  	background: url(../img/form-background_03.jpg);
+			height: 150px;
+			margin: 0;
+			border-top: solid 5px;
+  		background-color:red;
+  		background: url(../img/form-background_03.jpg);
+		}
+		#the_city {
+     background: url(../img/city-logo_03.jpg);
+     display: block;
+     height: 17px;
+     width: 53px;
+     text-indent: -9999px;
+   	}
+
+   #the_city:hover, #the_city:focus {
+     background-position: 0 -17px;
 		}
 
 		.icons {
@@ -173,114 +144,167 @@
 			padding-right: 10px;
 		}
 
-		
 		/*
 		*********************
-		* =logo
+		* =part 2 and logo
 		*********************
 		*/
 
-.part_two {
-	background: url(../img/logo_background_03.jpg);
-	height : 100px;
-}
-.pagelinks li a{
-	float: right !important;
-	font-size: 15px;
-	padding-top: 16px;
-	display: inline;
-	margin-top: 25px;
-}
+		.logo_menu p {
+     background: url(../img/logo_03.jpg);
+     display: block;
+     height: 47.5px;
+     width: 331px;
+     text-indent: -9999px;
+     float: left;
+     clear: all;
+   	}
 
-.pagelinks a:hover {
-	background: #f86767;
-	color: white !important;
-	border: solid 1px;
-	border-color: black;
-}
+   .logo_menu p:hover, .logo_menu p:focus {
+     background-position: 0 -47px;
+		}
 
-.pagelinks a {
-	padding: 6px 12px;
-}
+		.part_two {
+			background: url(../img/logo_background_03.jpg);
+			height : 100px;
+		}
 
-.messages a:hover {
-	background: #f86767;
-	color: white !important;
-	background-color: #f86767;
-	}
+		.logo_menu ul li{
+			float: left;
+			font-size: 15px;
+			padding-top: 16px;
+			display: inline;
+			margin-top: 25px;
+		}
 
-.messages li a{
-	font-size: 14px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	color: black;
-	border-bottom: solid 1px;
-	border-color: black;
-	width: 490px;
-	display: block;
-}
-.messages a {
-	padding: 6px 12px;
-}
-.pagelinks ul li {
-	display: inline;
-	float: left;
-}
+		.logo_menu ul li:first-child{padding-left: 40px;}
 
-.logo, .pagelinks {
-margin-top: 30px;
-}
+		.logo_menu ul li a:hover {
+			background: #f86767;
+			color: white !important;
+			border: solid 1px;
+			border-color: black;
+		}
 
-.nlc_header {
-	font-size: 30px;
-	float: left !important;
-	margin-right: 5px;
-}
+		.logo_menu ul li a {padding: 6px 12px;}
 
-.webaddress {
-	float: left;
-	padding-top: 5px;
-	font-size: 25px;
-	text-transform: lowercase;
+		.logo_menu ul li {margin-top: 0px;}
 
-}
-a {
-	text-decoration: none;
-}
+		.logo_menu {padding-top: 20px;}
 
-.logo {
-	overflow:hidden;
-	float: left;
-}
-.logo a:hover {
-color: red;
-}
+		/*
+		*********************
+		* =timer
+		*********************
+		*/
 
-.days {
-	float: left;
-}
+		#timer {
+			height: 30px;
+			width: 960px;
+			clear: both;
+		}
 
-.watch {
-	float: right;
-}
+		.days {float: left;}
 
-.logo_menu {
-	width: 830px;
-}
+		.watch {float: right;}
 
-#band, .messages {
-	clear: both;
-	float: left;
-}
+		/*
+		*********************
+		* =part 3 and the black box
+		*********************
+		*/
 
-.yes_services{
-	background: url(../img/band-background_03.jpg);
-	height: 350px;
-}
-.yes_services ul {
-	background-color: white;
-}
-.messages li {
-	padding-left: 10px;
+		.map {
+			float: left;
+			clear: both;
+			overflow: hidden;
+			clear: both;
+		}
 
-}
+		.location {
+			background: url(../img/blackbox_03.jpg);
+			color: white;
+			width: 350px;
+			height: 150px;
+			overflow: hidden;
+			margin-top: 40px;
+			float: left;
+		}
+
+		.goright {float: right;}
+
+		.part_three {
+			background: url(../img/part-three-bkg_03.jpg);
+			height: 265px;
+		}
+
+		.part_three .grid_1 {
+			margin-left: 0px !important;
+			margin-right: 0px !important;
+		}
+
+		/*
+		*********************
+		* =service header
+		*********************
+		*/
+
+		#work {
+			width: 830px;
+			margin: auto;
+		}
+
+		#work h4 {float: left;}
+
+		#work a {float: right;}
+
+		/*
+		*********************
+		* =past services
+		*********************
+		*/
+
+		.yes_services{
+			background: url(../img/band-background_03.jpg);
+			height: 350px;
+		}
+
+		.yes_services ul {background-color: white;}
+
+		#band {
+			float: left;
+			clear: both;
+		}
+
+		.messages a:hover {
+			background: #f86767;
+			color: white !important;
+			background-color: #f86767;
+		}
+
+		.messages li a{
+			font-size: 13px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			color: black;
+			border-bottom: solid 1px;
+			border-color: black;
+			width: 470px;
+			display: block;
+		}
+
+		.messages a {padding: 6px 12px;}
+
+		.messages {
+			float: left;
+			margin: 10px 0px 10px 0px;
+		}
+
+		.messages li {padding-left: 5px;}
+
+		/*
+		*********************
+		* =part_four
+		*********************
+		*/
+		.part_four {clear: both;}

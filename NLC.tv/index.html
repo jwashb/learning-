@@ -11,7 +11,7 @@
 	</head>
 
 	<body>
-		<section class="part_one"> <!--contact form at top of page-->
+		<section class="part_one">
 			<div class="inner">
 				<div class="form_header">
 					<p id="form_contact">CONTACT US</p> 
@@ -21,7 +21,9 @@
 				<form action="" method="post">
 						<ul id="name">
 							<li>
-								<label for="first_name">NAME</label>
+								<label for="first_name, last_name">Name</label>
+							</li>
+							<li>
 								<input id="first_name" name="first_name" placeholder="first"/>
 								<input id="last_name" name="last_name" placeholder="last"/>
 							</li>
@@ -30,7 +32,7 @@
 								<input id="email" name="email">
 							</li>
 						</ul>
-						<div class="message">
+						<div class="form_second">
 							<ul>
 								<li>
 									<label for="message">YOUR MESSAGE</label>
@@ -38,7 +40,9 @@
 								</li>
 							</ul>
 						</div>
-						<div id="form_third">
+						<ul id="form_third">
+							<li>Campus Select</li>
+							<li>
 							<select>
 								<option>CABOT</option>
 								<option>CONWAY</option>
@@ -47,17 +51,18 @@
 								<option>HEBER SPRINGS</option>
 								<option>HOT SPRINGS</option>
 							</select>
+						</li>
+						<li>
 							<input id="submit" type="submit" value="SUBMIT">
-							
-						</div>
+							</li>
+						</ul>
 					</form>
 				</div>
 			</div>
 		</section>
 
 		
-		<header>
-			<div class="header_top">
+			<section class="header_top">
 				<p class="grid_1">Campus Select:</p>
 				<ul class="grid_2">
 					<li><a href="#">CABOT</a></li>
@@ -71,22 +76,17 @@
 					<li class="grid_3"><a href="#">CONTACT US</a><li>
 					<li class="grid_4"><a href="#">GIVING</a><li>
 				</ul>	
-			</div>
-			<div class="icons">
-				<a href="#"><img src="img/icons-2_03.jpg" alt=""></a>
+				<div class="icons">
+				<a href="#" id="the_city">The City</a>
 				<a href="#"><img src="img/icons-2_06.jpg" alt=""></a>
 				<a href="#"><img src="img/icons-2_09.jpg" alt=""></a>
 			</div>
-			<section class="part_two"> <!-- Header under contact form -->
+			</section>
+			<section class="part_two">
 				<div class="inner">
 					<div class="logo_menu">
-						<!-- <h1 class="logo grid_1">
-							<a href="#"> 
-								<div class="nlc_header">NLC |</div> 
-								<div class= "webaddress">newlifechurch.tv</div>
-							</a> 
-						</h1> -->
-						<ul class="pagelinks">
+						<a href="#"><p>New Life Church logo</p></a>
+						<ul>
 							<li><a href="#">I'M NEW HERE</a></li>
 							<li><a href="#">MINISTRIES</a></li>
 							<li><a href="#">PRAYER</a></li>
@@ -95,13 +95,12 @@
 					</div>
 				</div>
 			</section>
-			<div id="timer" class="inner">
+			<section id="timer" class="inner">
 				<p class="days">
-					0 days 3 hours 37 minutes until next online serivice
+					0 days 3 hours 37 minutes until next onine serivice
 				</p>
 				<p class="watch">WATCH OUR MOST RECENT SERVICE NOW</p>
-			</div>
-		</header>
+			</section>
 	
 
 
@@ -133,20 +132,16 @@
 					</div>
 			</div>
 		</section>
-
+		<section class="service_header">
 		<div id="work">
 			<div class="inner">
 				<h4>RECENT SERVICES</h4>
 				<a href="#">watch older services</a>
 			</div>
 		</div>
+	</section>
 
 		<section class="yes_services">
-
-			<!-- <div class="inner service_header">
-				<h4>RECENT SERVICES</h3>
-				<a href="#">watch older services</a>
-			</div> -->
 			<div class="inner">
 				<img src="img/band.jpg" alt="Watch our past services" id="band">
 				<ul class="messages grid_2">
@@ -157,7 +152,7 @@
 						<a href="#"><strong>June 25, 2011</strong>- SURVIVAL OF THE FITTEST - CHARLES D</a>
 					</li>
 					<li>
-						<a href="#"><strong>June 25, 2011</strong> - DEAR SWEET BABY JESUS - RICKY BOBBY</a>
+						<a href="#"><strong>June 25, 2011</strong> - DEAR SaET BABY JESUS - RICKY BOBBY</a>
 					</li>
 					<li>
 						<a href="#"><strong>June 25, 2011 -</strong> BE AWESOME AT EVERYTHING - NEIL CHEESEHOUSE</a>
