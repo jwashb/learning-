@@ -139,10 +139,35 @@
      background-position: 0 -17px;
 		}
 
-		.icons {
-			float:right;
-			padding-right: 10px;
+#facebook {
+     background: url(../img/Facebook-badge_03.jpg);
+     display: block;
+     height: 16px;
+     width: 16px;
+     text-indent: -9999px;
+   	}
+
+   #facebook:hover, #facebook:focus {
+     background-position: 0 -16px;
 		}
+
+		#twitter {
+     background: url(../img/twitter-badge_03.jpg);
+     display: block;
+     height: 17px;
+     width: 19px;
+     text-indent: -9999px;
+   	}
+
+   #twitter:hover, #twitter:focus {
+     background-position: 0 -17px;
+		}
+
+#the_city, #facebook, #twitter {
+	float: right;
+	margin: 2px;
+}
+
 
 		/*
 		*********************
@@ -242,7 +267,6 @@
 			margin-left: 0px !important;
 			margin-right: 0px !important;
 		}
-
 		/*
 		*********************
 		* =service header
@@ -307,4 +331,171 @@
 		* =part_four
 		*********************
 		*/
-		.part_four {clear: both;}
+		.part_four {
+			clear: both;
+			background: url(../img/updates-background_07.jpg);
+			overflow: hidden;
+		}
+
+		.part_four h2 {
+			float: left;
+		}
+
+		.part_four .grid_2 {
+			float: left;
+			padding-top: 7px;
+			padding-left: 30px;
+			padding-right: 10px;
+		}
+
+		.part_four ul li {
+			display: inline;
+			float: left;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 7px;
+		}
+
+		.part_four ul li a{
+			padding: 4px;
+		}
+
+		.part_four ul li a:hover {
+			padding: 4px;
+			background: #f86767;
+			color: white !important;
+			border: solid 1px;
+			border-color: black;
+		}
+
+		.part_four #more_updates {
+			float: right;
+			padding-top: 7px;
+		}
+
+		.part_four #more_updates a:hover {
+			color: red;
+		}
+
+				/*
+				*********************
+				* =part 5
+				*********************
+				*/
+
+				.part_four_half {
+				background: url(../img/updates-background_07.jpg);
+				}
+
+				.part_four_half .update1 {
+					float: left;
+					clear: both;
+					margin-top: 20px;
+					background: url(../img/update1_03.jpg);
+					width: 231px;
+					height: 232px;
+					position: relative;
+				}
+				.part_four_half .update1 a {
+					padding: 0px;
+					font-size: 14px;
+					width: 231px;
+					height: 182px;
+					padding-top: 50px;
+					color: white;
+					text-align: center;
+					text-indent: -9999px;
+					
+					position: absolute;
+				}
+
+				.part_four_half .update1 a:hover {
+					text-indent: 0px;
+					background: rgba(0,0,0, .5);
+				}
+
+				/*****************************/
+
+				.part_four_half .update2 {
+					float: left;
+					margin-left: 20px;
+					margin-top: 20px;
+					background: url(../img/update2_03.jpg);
+					width: 232px;
+					height: 232px;
+					position: relative;
+
+				}
+				.part_four_half .update2 a {
+					padding: 0px;
+					font-size: 14px;
+					width: 232px;
+					height: 182px;
+					padding-top: 50px;
+					color: white;
+					text-align: center;
+					text-indent: -9999px;
+					position: absolute;
+				}
+
+				.part_four_half .update2 a:hover {
+					text-indent: 0px;
+					background: rgba(0,0,0, .5);
+				}
+
+				/*************************/
+
+				.part_four_half .update3 {
+					float: left;
+					margin-left: 20px;
+					margin-top: 20px;
+					background: url(../img/update3_03.jpg);
+					width: 232px;
+					height: 232px;
+					position: relative;
+					overflow: hidden;
+				}
+				.part_four_half .update3 a {
+					padding: 0px;
+					font-size: 14px;
+					width: 232px;
+					height: 182px;
+					padding-top: 50px;
+					color: white;
+					text-align: center;
+					text-indent: -9999px;
+					position: absolute;
+				}
+
+				.part_four_half .update3 a:hover {
+					text-indent: 0px;
+					background: rgba(0,0,0, .5);
+				}
+
+
+
+						/*
+						*********************
+						* =part 6
+						*********************
+						*/
+
+						.part_6 {
+							background: url(../img/footerbackground_03.jpg);
+							height: 75px;
+						}
+
+						.part_6 li {
+							float: left;
+							display: inline;
+							padding-top: 20px;
+						}
+
+						.part_6 li:nth-child(n+2) {
+							margin-left: 10px;
+						}
+
+						.part_6 p {
+							float: right;
+							padding-top: 20px;
+						}
