@@ -243,19 +243,36 @@
 			float: left;
 			clear: both;
 			overflow: hidden;
+			width: 300px;
+			height: 200px;
+			padding: 10px;
+			background: #484E4E;
+			border: solid 2px #424343;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
 		}
 
 		.location {
 			background: url(../img/blackbox_03.jpg);
 			color: white;
-			width: 300px;
+			width: 500px;
 			height: 150px;
-			overflow: hidden;
 			margin-top: 40px;
 			float: left;
+			position: relative;
+		}
+
+		.location .dropdown {
+			position: relative;
+			z-index: 9999;
 		}
 
 		.goright {float: right;}
+
+		.campus-telephone { 
+			margin-right: 200px;
+		}
 
 		.part_three {
 			background: url(../img/part-three-bkg_03.jpg);
