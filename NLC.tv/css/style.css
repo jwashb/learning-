@@ -105,14 +105,13 @@
 			float: right;
 			clear: all;
 			margin: 0 0 20px 20px;
-
 		}
 
-		#form_third li {margin: 0 0 10px 0;}
+		#form_third li { margin: 0 0 10px 0; }
 
-		#sudmit {float: left;}
+		#sudmit { float: left; }
 
-		.contactform ul li:last-child {float: left;}
+		.contactform ul li:last-child { float: left; }
 
 		/*
 		*********************
@@ -127,6 +126,7 @@
   		background-color:red;
   		background: url(../img/form-background_03.jpg);
 		}
+
 		#the_city {
      background: url(../img/city-logo_03.jpg);
      display: block;
@@ -139,7 +139,7 @@
      background-position: 0 -17px;
 		}
 
-#facebook {
+		#facebook {
      background: url(../img/Facebook-badge_03.jpg);
      display: block;
      height: 16px;
@@ -163,10 +163,10 @@
      background-position: 0 -17px;
 		}
 
-#the_city, #facebook, #twitter {
-	float: right;
-	margin: 2px;
-}
+		#the_city, #facebook, #twitter {
+			float: right;
+			margin: 2px;
+		}
 
 
 		/*
@@ -194,7 +194,7 @@
 			height : 100px;
 		}
 
-		.logo_menu ul li{
+		.logo_menu ul li {
 			float: left;
 			font-size: 15px;
 			padding-top: 16px;
@@ -202,7 +202,7 @@
 			margin-top: 25px;
 		}
 
-		.logo_menu ul li:first-child{padding-left: 40px;}
+		.logo_menu ul li:first-child {padding-left: 40px;}
 
 		.logo_menu ul li a:hover {
 			background: #f86767;
@@ -211,11 +211,11 @@
 			border-color: black;
 		}
 
-		.logo_menu ul li a {padding: 6px 12px;}
+		.logo_menu ul li a { padding: 6px 12px; }
 
-		.logo_menu ul li {margin-top: 0px;}
+		.logo_menu ul li { margin-top: 0px; }
 
-		.logo_menu {padding-top: 20px;}
+		.logo_menu { padding-top: 20px; }
 
 		/*
 		*********************
@@ -243,13 +243,12 @@
 			float: left;
 			clear: both;
 			overflow: hidden;
-			clear: both;
 		}
 
 		.location {
 			background: url(../img/blackbox_03.jpg);
 			color: white;
-			width: 350px;
+			width: 300px;
 			height: 150px;
 			overflow: hidden;
 			margin-top: 40px;
@@ -384,7 +383,7 @@
 				*/
 
 				.part_four_half {
-				background: url(../img/updates-background_07.jpg);
+					background: url(../img/updates-background_07.jpg);
 				}
 
 				.part_four_half .update1 {
@@ -396,6 +395,7 @@
 					height: 232px;
 					position: relative;
 				}
+
 				.part_four_half .update1 a {
 					padding: 0px;
 					font-size: 14px;
@@ -405,7 +405,6 @@
 					color: white;
 					text-align: center;
 					text-indent: -9999px;
-					
 					position: absolute;
 				}
 
@@ -424,8 +423,8 @@
 					width: 232px;
 					height: 232px;
 					position: relative;
-
 				}
+
 				.part_four_half .update2 a {
 					padding: 0px;
 					font-size: 14px;
@@ -455,6 +454,7 @@
 					position: relative;
 					overflow: hidden;
 				}
+
 				.part_four_half .update3 a {
 					padding: 0px;
 					font-size: 14px;
@@ -491,11 +491,103 @@
 							padding-top: 20px;
 						}
 
-						.part_6 li:nth-child(n+2) {
-							margin-left: 10px;
-						}
+						.part_6 li:nth-child(n+2) { margin-left: 10px; }
 
 						.part_6 p {
 							float: right;
 							padding-top: 20px;
 						}
+
+		/*
+		*********************
+		* =drop downs
+		*********************
+		*/
+
+		.dropdown {
+			padding-left: 10px;
+		}
+
+		* {
+			margin: 0; padding: 0;
+		}
+
+		#page-wrap { 
+			
+			margin: 25px auto; 
+		} 
+
+a	{ text-decoration: none; }
+
+ul { list-style: none; }
+
+p { margin: 15px 0; }
+
+/* 
+	LEVEL ONE
+*/
+
+
+
+ul.dropdown li {
+ font-weight: bold; 
+ float: left;
+ zoom: 1;
+ background: #ccc; 
+}
+
+ul.dropdown a:hover { color: #000; }
+ul.dropdown a:active { color: #ffa500; }
+ul.dropdown li a {
+display: block; 
+padding: 4px 8px; 
+border-right: 1px solid #333;
+color: #222; 
+}
+
+ul.dropdown li:last-child a { border-right: none; } /* Doesn't work in IE */
+
+ul.dropdown li.hover,
+ul.dropdown li:hover { 
+	background: #F3D673; 
+	color: black; 
+	position: relative; 
+}
+
+ul.dropdown li.hover a { color: black; }
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul { 
+	width: 220px; 
+	visibility: hidden; 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+}
+
+ul.dropdown ul li { 
+	font-weight: normal;
+ 	background: #f6f6f6; 
+ 	color: #000; 
+	border-bottom: 1px solid #ccc; 
+	float: none; 
+}
+									  
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a	{ 
+	border-right: none;
+	width: 100%;
+	display: inline-block; 
+} 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul{ 
+	left: 100%; 
+	top: 0; 
+}
+ul.dropdown li:hover > ul { visibility: visible; }
